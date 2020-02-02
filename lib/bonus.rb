@@ -20,17 +20,9 @@ def bonus
    }
   }
 
-  epic_tragedy.each do |k, v|
-    k.each do |key, value|
-      if key == :hero && :heroine
-        value[:status] = "dead"
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
+  epic_tragedy[:montague][:hero][:status] = "dead"
 
-
-
-
-      end
-    end
-  end#code your solution here:
 
 
 
